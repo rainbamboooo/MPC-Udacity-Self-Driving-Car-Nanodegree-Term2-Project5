@@ -21,10 +21,10 @@ There are two actuations, which are ***delta*** and ***a***.
 ### Timestep Length and Elapsed Duration
 Timestep length ***N = 25***, elapsed duration ***dt = 0.05s***.
 
-###Polynomial Fitting and MPC Preprocessing
+### Polynomial Fitting and MPC Preprocessing
 I transformed the map coordination to the car coordination. Then I did the polynomial fitting.
 
-###Latency
+### Latency
 
     	  double latency = 0.1;
 		  px += v * std::cos(psi) * latency;
